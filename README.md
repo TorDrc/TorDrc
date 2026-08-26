@@ -160,7 +160,7 @@ If you’re working on financial infrastructure, interoperability, payments, AI,
 
 📫 Connect
 
-🌐 KORIVA: https://koriva.finance
+🌐 KORIVA FINANCIAL SYSTEM 
 
 💻 GitHub: https://github.com/TorDrc
 
