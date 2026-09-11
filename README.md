@@ -1,9 +1,12 @@
 👋 Hi — I’m Kenedy Kabori Richard
 
-> Founder & Builder of KORIVA — Financial infrastructure connecting payments, identity, compliance, APIs, and digital assets across African markets.
+> Founder & CTO at KORIVA — Building open financial infrastructure (payments, identity, compliance, APIs) for African markets.
 
 [![Last Commit](https://img.shields.io/github/last-commit/TorDrc/TorDrc)](https://github.com/TorDrc/TorDrc/commits)
 [![Repo Size](https://img.shields.io/github/repo-size/TorDrc/TorDrc)](https://github.com/TorDrc/TorDrc)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://github.com/TorDrc/TorDrc/blob/main/LICENSE)
+[![Open issues](https://img.shields.io/github/issues/TorDrc/TorDrc)](https://github.com/TorDrc/TorDrc/issues)
+[![Open PRs](https://img.shields.io/github/issues-pr/TorDrc/TorDrc)](https://github.com/TorDrc/TorDrc/pulls)
 
 ---
 
@@ -27,10 +30,30 @@ The long-term goal is to make it easier for financial institutions, fintechs, bu
 
 ---
 
+## Table of Contents
+
+- [What I’m Building](#what-im-building)
+- [Architecture (ASCII)](#architecture-ascii)
+- [Technology & Areas](#technology--areas)
+  - [Backend](#backend)
+  - [Database & Infrastructure](#database--infrastructure)
+- [Other Projects](#other-projects)
+- [Current Focus](#current-focus)
+- [Vision](#vision)
+- [Engineering Principles](#engineering-principles)
+- [Featured Projects](#featured-projects)
+- [Open to](#open-to)
+- [Connect](#connect)
+
+---
+
 ## What I’m Building
 
 KORIVA — Financial Infrastructure
 
+## Architecture (ASCII)
+
+```text
                  KORIVA API
 
     Identity    │   Payments   │  Compliance
@@ -38,34 +61,40 @@ KORIVA — Financial Infrastructure
     Wallets       Ledger        Transfers
 
 Financial Ecosystem → standardized APIs & integrations
+```
 
 ---
 
 ## Technology & Areas
 
-Backend
+### Backend
 
-Database & Infrastructure
+I build the backend with reliability, security, and auditability in mind. Common concerns and components include:
 
-Other areas
+- API-first services (REST/JSON) with clear versioning
+- Authentication & authorization (OAuth2 / JWT / mTLS where applicable)
+- Microservice or modular monolith approaches depending on domain boundaries
+- Observability: structured logging, distributed tracing, metrics (Prometheus/Grafana)
+- Automated testing (unit/integration) and CI pipelines
 
-- REST APIs
-- Authentication & Authorization
-- KYC / KYB
-- AML / Compliance
-- Payment orchestration
-- Financial ledger architecture
-- AI systems
-- Blockchain infrastructure
-- Cloud infrastructure
-- API security
+### Database & Infrastructure
+
+Core infrastructure patterns and choices:
+
+- Relational ledgers (Postgres / ACID-compliant systems) for financial state
+- Append-only accounting or event-sourced ledgers where appropriate
+- Caching (Redis) and queueing (Kafka / RabbitMQ) for throughput and decoupling
+- Cloud-native deployment (containers, Kubernetes, IaC like Terraform)
+- Secure key management (KMS / HSM) and secrets handling
+- Regular backups, point-in-time recovery, and DR planning
 
 ---
 
 ## Other Projects
 
-### Richy Hunter AI
-An AI-powered Solana market intelligence project focused on token analysis, market signals, liquidity, trading activity, and risk assessment. The project explores AI-assisted market analysis, blockchain data, token metrics, liquidity analysis, risk scoring, and automated monitoring.
+- **KORIVADASHBOARD** — Web/dashboard for KORIVA (https://github.com/TorDrc/KORIVADASHBOARD)
+- **richy-hunter-ai** — AI-powered Solana market intelligence (https://github.com/TorDrc/richy-hunter-ai)
+- **richy-hunter-ai-dashboard** — Dashboard for Richy Hunter AI (https://github.com/TorDrc/richy-hunter-ai-dashboard)
 
 ---
 
@@ -108,9 +137,9 @@ For financial infrastructure, correctness and security matter more than simply s
 
 ## Featured Projects
 
-- KORIVA — Financial infrastructure and interoperability
-- KORIVADASHBOARD — KORIVA web/dashboard infrastructure
-- Richy Hunter AI — AI & blockchain market intelligence
+- [KORIVA (project)](https://github.com/TorDrc/KORIVADASHBOARD) — Financial infrastructure and interoperability
+- [KORIVADASHBOARD](https://github.com/TorDrc/KORIVADASHBOARD) — KORIVA web/dashboard infrastructure
+- [Richy Hunter AI](https://github.com/TorDrc/richy-hunter-ai) — AI & blockchain market intelligence
 
 ---
 
@@ -135,8 +164,9 @@ If you’re working on financial infrastructure, interoperability, payments, AI,
 ## Connect
 
 - GitHub: https://github.com/TorDrc
+- Email: kenedykabori104@gmail.com
 
-Prefer connecting via GitHub — open an issue or discussion in any repo, or reach out from my profile.
+(If you prefer only GitHub exposure, I can remove the email and keep GitHub only — tell me.)
 
 ---
 
