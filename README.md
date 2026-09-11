@@ -1,59 +1,47 @@
- 👋 Hi, I’m Kenedy Kabori Richard
+👋 Hi — I’m Kenedy Kabori Richard
 
-Founder & Builder of KORIVA
+> Founder & Builder of KORIVA — Financial infrastructure connecting payments, identity, compliance, APIs, and digital assets across African markets.
 
-I’m building KORIVA, a financial infrastructure project focused on connecting payments, identity, compliance, financial services, APIs, and digital assets across African markets.
+[![Last Commit](https://img.shields.io/github/last-commit/TorDrc/TorDrc)](https://github.com/TorDrc/TorDrc/commits)
+[![Repo Size](https://img.shields.io/github/repo-size/TorDrc/TorDrc)](https://github.com/TorDrc/TorDrc)
 
-Building infrastructure that makes financial systems more connected, accessible, and interoperable.
+---
 
-⸻
-
-🚀 KORIVA
-
-Financial Infrastructure for Africa
+# KORIVA — Financial Infrastructure for Africa
 
 KORIVA is an infrastructure and interoperability platform designed to connect fragmented financial ecosystems through a unified technology layer.
 
-Core areas
+Core focus areas
 
-* 💳 Payments & Transfers
-* 🪪 Identity & KYC
-* 🛡️ Compliance & Risk
-* 🔌 Financial APIs
-* 💰 Wallets & Accounts
-* 📒 Financial Ledger
-* 🌍 Cross-border Infrastructure
-* 🤖 AI & Automation
-* ⛓️ Blockchain & Digital Assets
+- 💳 Payments & Transfers
+- 🪪 Identity & KYC
+- 🛡️ Compliance & Risk
+- 🔌 Financial APIs
+- 💰 Wallets & Accounts
+- 📒 Financial Ledger
+- 🌍 Cross-border Infrastructure
+- 🤖 AI & Automation
+- ⛓️ Blockchain & Digital Assets
 
-The long-term goal is to make it easier for financial institutions, fintechs, businesses, and digital platforms to connect to financial services through standardized APIs and infrastructure.
+The long-term goal is to make it easier for financial institutions, fintechs, businesses, and digital platforms to connect to financial services through standardized, secure APIs.
 
-⸻
+---
 
-🏗️ What I’m Building
+## What I’m Building
 
-                    KORIVA
-             Financial Infrastructure
-                       │
-        ┌──────────────┼──────────────┐
-        │              │              │
-     Identity        Payments      Compliance
-        │              │              │
-        └──────────────┼──────────────┘
-                       │
+KORIVA — Financial Infrastructure
+
                  KORIVA API
-                       │
-        ┌──────────────┼──────────────┐
-        │              │              │
-      Wallets        Ledger        Transfers
-        │              │              │
-        └──────────────┼──────────────┘
-                       │
-                Financial Ecosystem
 
-⸻
+    Identity    │   Payments   │  Compliance
+        │              │            │
+    Wallets       Ledger        Transfers
 
-💻 Technology
+Financial Ecosystem → standardized APIs & integrations
+
+---
+
+## Technology & Areas
 
 Backend
 
@@ -61,113 +49,97 @@ Database & Infrastructure
 
 Other areas
 
-* REST APIs
-* Authentication & Authorization
-* KYC / KYB
-* AML / Compliance
-* Payment orchestration
-* Financial ledger architecture
-* AI systems
-* Blockchain infrastructure
-* Cloud infrastructure
-* API security
+- REST APIs
+- Authentication & Authorization
+- KYC / KYB
+- AML / Compliance
+- Payment orchestration
+- Financial ledger architecture
+- AI systems
+- Blockchain infrastructure
+- Cloud infrastructure
+- API security
 
-⸻
+---
 
-🔬 Other Projects
+## Other Projects
 
-🧠 Richy Hunter AI
+### Richy Hunter AI
+An AI-powered Solana market intelligence project focused on token analysis, market signals, liquidity, trading activity, and risk assessment. The project explores AI-assisted market analysis, blockchain data, token metrics, liquidity analysis, risk scoring, and automated monitoring.
 
-An AI-powered Solana market intelligence project focused on token analysis, market signals, liquidity, trading activity, and risk assessment.
+---
 
-The project explores the use of:
+## Current Focus
 
-* AI-assisted market analysis
-* Blockchain data
-* Token metrics
-* Liquidity analysis
-* Risk scoring
-* Automated monitoring
+- KORIVA Infrastructure
+  - API Architecture
+  - Financial Core
+  - Ledger
+  - Identity & Compliance
+  - Payment Infrastructure
+  - Security
+  - Cloud Infrastructure
+  - Developer APIs
 
-⸻
+---
 
-🎯 Current Focus
+## Vision
 
-[████████████████░░░░] KORIVA Infrastructure
-→ API Architecture
-→ Financial Core
-→ Ledger
-→ Identity & Compliance
-→ Payment Infrastructure
-→ Security
-→ Cloud Infrastructure
-→ Developer APIs
+Africa has a rapidly growing digital financial ecosystem, but many financial systems remain fragmented across banks, mobile-money networks, fintech platforms, payment processors, and digital assets. KORIVA is being built around the idea that interoperability should become infrastructure — a technology layer that allows different financial systems to communicate through standardized, secure APIs.
 
-⸻
+---
 
-🌍 Vision
-
-Africa has a rapidly growing digital financial ecosystem, but many financial systems remain fragmented across banks, mobile-money networks, fintech platforms, payment processors, and digital-asset infrastructure.
-
-KORIVA is being built around the idea that interoperability should become infrastructure.
-
-The vision is to create a technology layer that allows different financial systems to communicate through standardized, secure APIs.
-
-⸻
-
-🔐 Engineering Principles
+## Engineering Principles
 
 I focus on building systems around:
 
-* Security first
-* API-first architecture
-* Interoperability
-* Scalability
-* Auditability
-* Reliability
-* Developer experience
-* Financial data integrity
+- Security first
+- API-first architecture
+- Interoperability
+- Scalability
+- Auditability
+- Reliability
+- Developer experience
+- Financial data integrity
 
 For financial infrastructure, correctness and security matter more than simply shipping features quickly.
 
-⸻
+---
 
-📌 Featured Projects
+## Featured Projects
 
-* KORIVA — Financial infrastructure and interoperability
-* KORIVADASHBOARD — KORIVA web/dashboard infrastructure
-* Richy Hunter AI — AI & blockchain market intelligence
+- KORIVA — Financial infrastructure and interoperability
+- KORIVADASHBOARD — KORIVA web/dashboard infrastructure
+- Richy Hunter AI — AI & blockchain market intelligence
 
-⸻
+---
 
-🤝 Open to
+## Open to
 
 I’m interested in connecting with:
 
-* Fintech builders
-* Software engineers
-* Financial institutions
-* Payment companies
-* API providers
-* Blockchain developers
-* AI engineers
-* African technology entrepreneurs
-* Potential strategic partners
+- Fintech builders
+- Software engineers
+- Financial institutions
+- Payment companies
+- API providers
+- Blockchain developers
+- AI engineers
+- African technology entrepreneurs
+- Potential strategic partners
 
 If you’re working on financial infrastructure, interoperability, payments, AI, or blockchain in Africa, I’d be interested in connecting.
 
-⸻
+---
 
-📫 Connect
+## Connect
 
-🌐 KORIVA FINANCIAL SYSTEM 
+- GitHub: https://github.com/TorDrc
 
-💻 GitHub: https://github.com/TorDrc
+Prefer connecting via GitHub — open an issue or discussion in any repo, or reach out from my profile.
 
-⸻
+---
 
-⚡ Building KORIVA, one layer at a time.
+> Building KORIVA, one layer at a time.
 
-Infrastructure before interfaces.
-Security before scale.
-Interoperability by design.
+Infrastructure before interfaces. Security before scale. Interoperability by design.
