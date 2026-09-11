@@ -164,9 +164,7 @@ If you’re working on financial infrastructure, interoperability, payments, AI,
 ## Connect
 
 - GitHub: https://github.com/TorDrc
-- Email: kenedykabori104@gmail.com
-
-(If you prefer only GitHub exposure, I can remove the email and keep GitHub only — tell me.)
+ 
 
 ---
 
