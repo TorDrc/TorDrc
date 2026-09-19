@@ -1,173 +1,238 @@
-👋 Hi — I’m Kenedy Kabori Richard
+ # 👋 Hi, I'm Kenedy Kabori Richard
 
-> Founder & CTO at KORIVA — Building open financial infrastructure (payments, identity, compliance, APIs) for African markets.
+**Founder & CTO of KORIVA — Building financial infrastructure and interoperability for emerging markets.**
 
-[![Last Commit](https://img.shields.io/github/last-commit/TorDrc/TorDrc)](https://github.com/TorDrc/TorDrc/commits)
-[![Repo Size](https://img.shields.io/github/repo-size/TorDrc/TorDrc)](https://github.com/TorDrc/TorDrc)
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://github.com/TorDrc/TorDrc/blob/main/LICENSE)
-[![Open issues](https://img.shields.io/github/issues/TorDrc/TorDrc)](https://github.com/TorDrc/TorDrc/issues)
-[![Open PRs](https://img.shields.io/github/issues-pr/TorDrc/TorDrc)](https://github.com/TorDrc/TorDrc/pulls)
+I’m interested in building reliable systems at the intersection of:
 
----
-
-# KORIVA — Financial Infrastructure for Africa
-
-KORIVA is an infrastructure and interoperability platform designed to connect fragmented financial ecosystems through a unified technology layer.
-
-Core focus areas
-
-- 💳 Payments & Transfers
-- 🪪 Identity & KYC
-- 🛡️ Compliance & Risk
-- 🔌 Financial APIs
-- 💰 Wallets & Accounts
-- 📒 Financial Ledger
-- 🌍 Cross-border Infrastructure
-- 🤖 AI & Automation
-- ⛓️ Blockchain & Digital Assets
-
-The long-term goal is to make it easier for financial institutions, fintechs, businesses, and digital platforms to connect to financial services through standardized, secure APIs.
+* 💳 Payments & financial infrastructure
+* 🌍 Cross-border transactions
+* 💰 Wallets & accounts
+* 📒 Financial ledgers
+* 🪪 Identity & KYC
+* 🛡️ Risk & compliance
+* 🔌 Financial APIs & interoperability
+* 🤖 AI-powered financial operations
+* ⛓️ Blockchain & digital-asset infrastructure
 
 ---
 
-## Table of Contents
+# KORIVA — Financial Infrastructure for Emerging Markets
 
-- [What I’m Building](#what-im-building)
-- [Architecture (ASCII)](#architecture-ascii)
-- [Technology & Areas](#technology--areas)
-  - [Backend](#backend)
-  - [Database & Infrastructure](#database--infrastructure)
-- [Other Projects](#other-projects)
-- [Current Focus](#current-focus)
-- [Vision](#vision)
-- [Engineering Principles](#engineering-principles)
-- [Featured Projects](#featured-projects)
-- [Open to](#open-to)
-- [Connect](#connect)
+**KORIVA** is an infrastructure and interoperability platform designed to connect fragmented financial ecosystems through a unified technology layer.
+
+The idea is simple:
+
+> **Pay with anything. Receive in your currency.**
+
+KORIVA is being designed to work across existing financial rails rather than replace them — connecting banks, mobile-money networks, payment providers, digital platforms, and blockchain-based settlement infrastructure through standardized APIs.
+
+### Core areas
+
+* 💳 Payment orchestration
+* 💰 Multicurrency wallets & accounts
+* 📒 Double-entry financial ledger
+* 🌍 Cross-border payment infrastructure
+* 💱 FX & settlement
+* 🪪 Identity & KYC
+* 🛡️ Risk & compliance
+* 🔌 Developer APIs
+* 🤖 AI-assisted financial operations
+* ⛓️ Blockchain & stablecoin settlement rails
 
 ---
 
-## What I’m Building
+## 🏗️ What I'm Building
 
-KORIVA — Financial Infrastructure
-
-## Architecture (ASCII)
+KORIVA is being developed around a few fundamental principles:
 
 ```text
-                 KORIVA API
-
-    Identity    │   Payments   │  Compliance
-        │              │            │
-    Wallets       Ledger        Transfers
-
-Financial Ecosystem → standardized APIs & integrations
+                  KORIVA
+                     │
+        ┌────────────┼────────────┐
+        │            │            │
+     Identity     Payments     Compliance
+        │            │            │
+        └────────────┼────────────┘
+                     │
+          ┌──────────┴──────────┐
+          │                     │
+       Accounts               Wallets
+          │                     │
+          └──────────┬──────────┘
+                     │
+                Financial
+                   Ledger
+                     │
+          ┌──────────┴──────────┐
+          │                     │
+      Bank Rails          Mobile Money
+          │                     │
+          └──────────┬──────────┘
+                     │
+              Cross-Border
+               Infrastructure
 ```
+
+The goal is to create a technology layer through which financial institutions, fintechs, businesses, and digital platforms can interact with financial services more efficiently.
 
 ---
 
-## Technology & Areas
+# ⚙️ Technology
+
+KORIVA is currently being built with a pragmatic approach focused on **correctness, security, and financial integrity**.
 
 ### Backend
 
-I build the backend with reliability, security, and auditability in mind. Common concerns and components include:
+* TypeScript
+* Node.js
+* Express
+* REST APIs
+* Zod
+* Structured logging
+* Authentication & authorization
+* Idempotent financial operations
+* Transaction-safe business logic
 
-- API-first services (REST/JSON) with clear versioning
-- Authentication & authorization (OAuth2 / JWT / mTLS where applicable)
-- Microservice or modular monolith approaches depending on domain boundaries
-- Observability: structured logging, distributed tracing, metrics (Prometheus/Grafana)
-- Automated testing (unit/integration) and CI pipelines
+### Financial Core
 
-### Database & Infrastructure
+* PostgreSQL
+* Drizzle ORM
+* Double-entry accounting
+* Ledger-based financial state
+* Transactional consistency
+* Idempotency & request integrity
+* Auditability
+* Reconciliation-oriented design
 
-Core infrastructure patterns and choices:
+### Frontend
 
-- Relational ledgers (Postgres / ACID-compliant systems) for financial state
-- Append-only accounting or event-sourced ledgers where appropriate
-- Caching (Redis) and queueing (Kafka / RabbitMQ) for throughput and decoupling
-- Cloud-native deployment (containers, Kubernetes, IaC like Terraform)
-- Secure key management (KMS / HSM) and secrets handling
-- Regular backups, point-in-time recovery, and DR planning
+* React
+* Vite
+* TypeScript
+* TanStack Query
+* Tailwind CSS
 
----
+### Engineering
 
-## Other Projects
+* API-first architecture
+* Secure-by-design development
+* Automated testing
+* Health & readiness checks
+* Observability
+* Modular architecture
+* Zero-trust principles
 
-- **KORIVADASHBOARD** — Web/dashboard for KORIVA (https://github.com/TorDrc/KORIVADASHBOARD)
-- **richy-hunter-ai** — AI-powered Solana market intelligence (https://github.com/TorDrc/richy-hunter-ai)
-- **richy-hunter-ai-dashboard** — Dashboard for Richy Hunter AI (https://github.com/TorDrc/richy-hunter-ai-dashboard)
-
----
-
-## Current Focus
-
-- KORIVA Infrastructure
-  - API Architecture
-  - Financial Core
-  - Ledger
-  - Identity & Compliance
-  - Payment Infrastructure
-  - Security
-  - Cloud Infrastructure
-  - Developer APIs
-
----
-
-## Vision
-
-Africa has a rapidly growing digital financial ecosystem, but many financial systems remain fragmented across banks, mobile-money networks, fintech platforms, payment processors, and digital assets. KORIVA is being built around the idea that interoperability should become infrastructure — a technology layer that allows different financial systems to communicate through standardized, secure APIs.
+> Technology choices will evolve as the system scales. The priority is to introduce complexity only when the financial and operational requirements justify it.
 
 ---
 
-## Engineering Principles
+# 🌍 Why KORIVA?
 
-I focus on building systems around:
+Financial ecosystems across emerging markets can be fragmented across:
 
-- Security first
-- API-first architecture
-- Interoperability
-- Scalability
-- Auditability
-- Reliability
-- Developer experience
-- Financial data integrity
+**Banks → Mobile Money → Fintechs → Payment Processors → Businesses → Digital Platforms**
 
-For financial infrastructure, correctness and security matter more than simply shipping features quickly.
+Different systems often use different APIs, currencies, settlement mechanisms, compliance processes, and operational models.
 
----
+KORIVA is being built around the idea that:
 
-## Featured Projects
+> **Interoperability should become infrastructure.**
 
-- [KORIVA (project)](https://github.com/TorDrc/KORIVADASHBOARD) — Financial infrastructure and interoperability
-- [KORIVADASHBOARD](https://github.com/TorDrc/KORIVADASHBOARD) — KORIVA web/dashboard infrastructure
-- [Richy Hunter AI](https://github.com/TorDrc/richy-hunter-ai) — AI & blockchain market intelligence
+Instead of forcing every financial platform to build every integration independently, KORIVA aims to provide a common infrastructure layer for connecting financial services.
 
 ---
 
-## Open to
+# 🔐 Engineering Principles
 
-I’m interested in connecting with:
+Financial infrastructure requires a different engineering mindset.
 
-- Fintech builders
-- Software engineers
-- Financial institutions
-- Payment companies
-- API providers
-- Blockchain developers
-- AI engineers
-- African technology entrepreneurs
-- Potential strategic partners
+I focus on:
 
-If you’re working on financial infrastructure, interoperability, payments, AI, or blockchain in Africa, I’d be interested in connecting.
+* **Security before scale**
+* **Correctness before convenience**
+* **Auditability by design**
+* **Financial data integrity**
+* **Idempotent operations**
+* **Explicit authorization**
+* **API-first design**
+* **Interoperability**
+* **Operational resilience**
+* **Developer experience**
 
----
+For financial systems, a successful transaction is not enough.
 
-## Connect
-
-- GitHub: https://github.com/TorDrc
- 
+**The system must also be able to explain exactly what happened.**
 
 ---
 
-> Building KORIVA, one layer at a time.
+# 🚧 Current Focus
 
-Infrastructure before interfaces. Security before scale. Interoperability by design.
+My current engineering focus is KORIVA's financial core:
+
+* Payment orchestration
+* Financial ledger
+* Accounts & wallets
+* Transaction integrity
+* API architecture
+* Identity & authorization
+* KYC & compliance foundations
+* Security architecture
+* Cross-border infrastructure
+* Developer APIs
+* AI-assisted operations
+
+---
+
+# 📂 Other Projects
+
+### KORIVADASHBOARD
+
+Web interface and dashboard infrastructure for KORIVA.
+
+🔗 https://github.com/TorDrc/KORIVADASHBOARD
+
+### Richy Hunter AI
+
+AI-powered market intelligence project exploring blockchain and digital-asset data.
+
+🔗 https://github.com/TorDrc/richy-hunter-ai
+
+### Richy Hunter AI Dashboard
+
+Dashboard interface for Richy Hunter AI.
+
+🔗 https://github.com/TorDrc/richy-hunter-ai-dashboard
+
+---
+
+# 🤝 Open to
+
+I'm interested in connecting with people working on:
+
+* Fintech infrastructure
+* Payments
+* Financial APIs
+* Cross-border systems
+* Banking technology
+* Mobile money
+* AI infrastructure
+* Blockchain infrastructure
+* Developer platforms
+* African technology
+
+I'm particularly interested in conversations with engineers, fintech builders, financial institutions, payment companies, and technology entrepreneurs working on infrastructure for emerging markets.
+
+---
+
+# 📫 Connect
+
+**GitHub:**
+https://github.com/TorDrc
+
+---
+
+> **Building KORIVA, one layer at a time.**
+>
+> Infrastructure before interfaces.
+> Security before scale.
+> Interoperability by design.
