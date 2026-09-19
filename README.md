@@ -1,8 +1,10 @@
 # 👋 Hi, I'm Kenedy Kabori Richard
 
-**Founder & CTO of KORIVA — Building financial infrastructure and interoperability for emerging markets.**
+**Founder & CTO of KORIVA — building financial infrastructure and interoperability for emerging markets.**
 
-I’m interested in building reliable systems at the intersection of:
+I’m an engineer and founder actively building KORIVA’s technical foundation, with a focus on payments, financial ledgers, identity, compliance, and cross-border interoperability.
+
+My work sits at the intersection of:
 
 * 💳 Payments & financial infrastructure
 * 🌍 Cross-border transactions
@@ -11,20 +13,18 @@ I’m interested in building reliable systems at the intersection of:
 * 🪪 Identity & KYC
 * 🛡️ Risk & compliance
 * 🔌 Financial APIs & interoperability
-* 🤖 AI-powered financial operations
+* 🤖 AI-assisted financial operations
 * ⛓️ Blockchain & digital-asset infrastructure
 
 ---
 
 # KORIVA — Financial Infrastructure for Emerging Markets
 
-**KORIVA** is an infrastructure and interoperability platform designed to connect fragmented financial ecosystems through a unified technology layer.
-
-The idea is simple:
+**KORIVA** is being built as a financial infrastructure and interoperability platform designed to connect fragmented financial ecosystems through a unified technology layer.
 
 > **Pay with anything. Receive in your currency.**
 
-KORIVA is being designed to work across existing financial rails rather than replace them — connecting banks, mobile-money networks, payment providers, digital platforms, and blockchain-based settlement infrastructure through standardized APIs.
+KORIVA is designed to connect with existing financial rails rather than replace them — including banks, mobile-money networks, payment providers, digital platforms, and blockchain-based settlement infrastructure.
 
 ### Core areas
 
@@ -46,38 +46,38 @@ KORIVA is being designed to work across existing financial rails rather than rep
 KORIVA is being developed around a few fundamental principles:
 
 ```text
-                  KORIVA
-                     │
-        ┌────────────┼────────────┐
-        │            │            │
-     Identity     Payments     Compliance
-        │            │            │
-        └────────────┼────────────┘
-                     │
-          ┌──────────┴──────────┐
-          │                     │
-       Accounts               Wallets
-          │                     │
-          └──────────┬──────────┘
-                     │
-                Financial
-                   Ledger
-                     │
-          ┌──────────┴──────────┐
-          │                     │
-      Bank Rails          Mobile Money
-          │                     │
-          └──────────┬──────────┘
-                     │
-              Cross-Border
-               Infrastructure
+                         KORIVA
+                            │
+        ┌───────────────────┼───────────────────┐
+        │                   │                   │
+     Identity            Payments           Compliance
+        │                   │                   │
+        └───────────────────┼───────────────────┘
+                            │
+                ┌───────────┴───────────┐
+                │                       │
+             Accounts                 Wallets
+                │                       │
+                └───────────┬───────────┘
+                            │
+                    Financial Ledger
+                            │
+                ┌───────────┴───────────┐
+                │                       │
+        Bank Integrations     Mobile-Money Integrations
+                │                       │
+                └───────────┬───────────┘
+                            │
+               Cross-Border Infrastructure
 ```
 
-The goal is to create a technology layer through which financial institutions, fintechs, businesses, and digital platforms can interact with financial services more efficiently.
+KORIVA is designed as an infrastructure layer connecting to external financial rails through APIs, connectors, and integrations.
+
+The goal is to make it easier for financial institutions, fintechs, businesses, and digital platforms to interact with financial services through standardized and secure interfaces.
 
 ---
 
-# ⚙️ Technology
+## ⚙️ Technology
 
 KORIVA is currently being built with a pragmatic approach focused on **correctness, security, and financial integrity**.
 
@@ -126,21 +126,23 @@ KORIVA is currently being built with a pragmatic approach focused on **correctne
 
 ---
 
-# 🌍 Why KORIVA?
+## 🌍 Why KORIVA?
 
 Financial ecosystems across emerging markets are often fragmented across:
 
 **Banks → Mobile Money → Fintechs → Payment Processors → Businesses → Digital Platforms**
 
-Different systems often use different APIs, currencies, settlement mechanisms, compliance processes, and operational models.
+Different systems can use different APIs, currencies, settlement mechanisms, compliance processes, and operational models.
 
-KORIVA is being built around the idea that **interoperability should become infrastructure**.
+KORIVA is being built around the idea that:
 
-Instead of forcing every financial platform to build every integration independently, KORIVA aims to provide a common infrastructure layer for connecting financial services.
+> **Interoperability should become infrastructure.**
+
+Instead of requiring every financial platform to build and maintain every integration independently, KORIVA aims to provide a common infrastructure layer for connecting financial services.
 
 ---
 
-# 🔐 Engineering Principles
+## 🔐 Engineering Principles
 
 Financial infrastructure requires a different engineering mindset.
 
@@ -163,11 +165,11 @@ For financial systems, a successful transaction is not enough.
 
 ---
 
-# 🚧 Current Focus
+## 🚧 Current Focus
 
-My current engineering focus is KORIVA's financial core:
+My current engineering focus is KORIVA’s financial core:
 
-* Payment orchestration
+* Payment orchestration foundations
 * Financial ledger
 * Accounts & wallets
 * Transaction integrity
@@ -175,37 +177,43 @@ My current engineering focus is KORIVA's financial core:
 * Identity & authorization
 * KYC & compliance foundations
 * Security architecture
-* Cross-border infrastructure
 * Developer APIs
-* AI-assisted operations
+
+### Areas of exploration
+
+* Cross-border interoperability
+* FX & settlement models
+* Blockchain & stablecoin settlement rails
+* AI-assisted financial operations
+* Scaling and operational infrastructure
 
 ---
 
-# 📂 Other Projects
+## 📂 Other Projects
 
 ### KORIVADASHBOARD
 
 Web interface and dashboard infrastructure for KORIVA.
 
-🔗 https://github.com/TorDrc/KORIVADASHBOARD
+🔗 [KORIVADASHBOARD](https://github.com/TorDrc/KORIVADASHBOARD)
 
 ### Richy Hunter AI
 
 AI-powered market intelligence project exploring blockchain and digital-asset data.
 
-🔗 https://github.com/TorDrc/richy-hunter-ai
+🔗 [Richy Hunter AI](https://github.com/TorDrc/richy-hunter-ai)
 
 ### Richy Hunter AI Dashboard
 
 Dashboard interface for Richy Hunter AI.
 
-🔗 https://github.com/TorDrc/richy-hunter-ai-dashboard
+🔗 [Richy Hunter AI Dashboard](https://github.com/TorDrc/richy-hunter-ai-dashboard)
 
 ---
 
-# 🤝 Open to
+## 🤝 Open to
 
-I'm interested in connecting with people working on:
+I’m interested in connecting with people working on:
 
 * Fintech infrastructure
 * Payments
@@ -218,19 +226,19 @@ I'm interested in connecting with people working on:
 * Developer platforms
 * African technology
 
-I'm particularly interested in conversations with engineers, fintech builders, financial institutions, payment companies, and technology entrepreneurs working on infrastructure for emerging markets.
+I’m particularly interested in conversations with engineers, fintech builders, financial institutions, payment companies, and technology entrepreneurs working on infrastructure for emerging markets.
 
 ---
 
-# 📫 Connect
+## 📫 Connect
 
-**GitHub:**  
-https://github.com/TorDrc
+**GitHub:**
+[github.com/TorDrc](https://github.com/TorDrc)
 
 ---
 
 > **Building KORIVA, one layer at a time.**
 >
-> Infrastructure before interfaces.  
-> Security before scale.  
+> Infrastructure before interfaces.
+> Security before scale.
 > Interoperability by design.
