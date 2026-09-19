@@ -1,4 +1,4 @@
- # 👋 Hi, I'm Kenedy Kabori Richard
+# 👋 Hi, I'm Kenedy Kabori Richard
 
 **Founder & CTO of KORIVA — Building financial infrastructure and interoperability for emerging markets.**
 
@@ -128,15 +128,13 @@ KORIVA is currently being built with a pragmatic approach focused on **correctne
 
 # 🌍 Why KORIVA?
 
-Financial ecosystems across emerging markets can be fragmented across:
+Financial ecosystems across emerging markets are often fragmented across:
 
 **Banks → Mobile Money → Fintechs → Payment Processors → Businesses → Digital Platforms**
 
 Different systems often use different APIs, currencies, settlement mechanisms, compliance processes, and operational models.
 
-KORIVA is being built around the idea that:
-
-> **Interoperability should become infrastructure.**
+KORIVA is being built around the idea that **interoperability should become infrastructure**.
 
 Instead of forcing every financial platform to build every integration independently, KORIVA aims to provide a common infrastructure layer for connecting financial services.
 
@@ -226,13 +224,13 @@ I'm particularly interested in conversations with engineers, fintech builders, f
 
 # 📫 Connect
 
-**GitHub:**
+**GitHub:**  
 https://github.com/TorDrc
 
 ---
 
 > **Building KORIVA, one layer at a time.**
 >
-> Infrastructure before interfaces.
-> Security before scale.
+> Infrastructure before interfaces.  
+> Security before scale.  
 > Interoperability by design.
