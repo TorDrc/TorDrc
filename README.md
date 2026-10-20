@@ -1,21 +1,27 @@
-<div align="center">
+  <div align="center">
 
-# 👋 Kenedy Kabori Richard
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=28&pause=1200&color=00F7FF&center=true&vCenter=true&width=900&lines=Kenedy+Kabori+Richard+%7C+Founder+%26+CTO;Building+KORIVA;Financial+Infrastructure+for+Emerging+Markets;Payments+%7C+APIs+%7C+Interoperability" alt="Animated title: Founder and CTO of KORIVA" />
 
-### Founder & CTO · KORIVA
+  <p><strong>Financial Infrastructure &amp; Interoperability for Emerging Markets</strong></p>
 
-**Financial Infrastructure & Interoperability for Emerging Markets**
+  <p>Building the infrastructure layer connecting payments, accounts, wallets, identity, compliance, and financial rails.</p>
 
-*Building the infrastructure layer connecting payments, accounts, wallets, identity, compliance, and financial rails.*
-
-<br>
-
-[![GitHub](https://img.shields.io/badge/GitHub-TorDrc-181717?style=for-the-badge\&logo=github)](https://github.com/TorDrc)
-[![KORIVA](https://img.shields.io/badge/KORIVA-Financial%20Infrastructure-0A66C2?style=for-the-badge)](https://github.com/TorDrc)
-[![Focus](https://img.shields.io/badge/Focus-Fintech%20%7C%20Payments%20%7C%20APIs-111827?style=for-the-badge)](https://github.com/TorDrc)
+  <p>
+    <a href="https://github.com/TorDrc">GitHub</a> ·
+    <a href="https://github.com/TorDrc">KORIVA</a>
+  </p>
 
 </div>
 
+---
+
+## KORIVA
+
+> **Pay with anything. Receive in your currency.**
+
+**KORIVA** is an emerging-market financial infrastructure platform being built to connect fragmented financial ecosystems through a unified technology layer.
+
+Instead of replacing existing financial rails, KORIVA is designed to connect with them through APIs, integrations, and financial infrastructure.
 ---
 
 ## KORIVA
