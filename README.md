@@ -314,3 +314,27 @@ I'm interested in connecting with:
 > *Infrastructure before interfaces. Security before scale. Interoperability by design.*
 
 </div>
+ <div align="center">
+
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=28&pause=1200&color=00F7FF&center=true&vCenter=true&width=900&lines=Kenedy+Kabori+Richard+%7C+Founder+%26+CTO;Building+KORIVA;Financial+Infrastructure+for+Emerging+Markets;Payments+%7C+APIs+%7C+Interoperability" alt="Animated title: Founder and CTO of KORIVA" />
+
+  <p><strong>Financial Infrastructure &amp; Interoperability for Emerging Markets</strong></p>
+
+  <p>Building the infrastructure layer connecting payments, accounts, wallets, identity, compliance, and financial rails.</p>
+
+  <p>
+    <a href="https://github.com/TorDrc">GitHub</a> ·
+    <a href="https://github.com/TorDrc">KORIVA</a>
+  </p>
+
+</div>
+
+---
+
+## KORIVA
+
+> **Pay with anything. Receive in your currency.**
+
+**KORIVA** is an emerging-market financial infrastructure platform being built to connect fragmented financial ecosystems through a unified technology layer.
+
+Instead of replacing existing financial rails, KORIVA is designed to connect with them through APIs, integrations, and financial infrastructure.
